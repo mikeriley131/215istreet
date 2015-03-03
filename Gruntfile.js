@@ -11,7 +11,7 @@ module.exports = function(grunt) {
                     style: 'expanded'
                 },
                 files: {
-                    'assets/css/main.css': 'assets/scss/main.scss'       // 'destination': 'source'
+                    '_assets/css/main.css': '_assets/scss/main.scss'       // 'destination': 'source'
                 }
             }
         },
@@ -37,18 +37,18 @@ module.exports = function(grunt) {
         // Watch
         watch: {
             scss: {
-                files: 'assets/**/*.scss',
+                files: '_assets/**/*.scss',
                 tasks: ['sass'],
                 options: {
                     livereload: true
                 }
             },
             css: {
-                files: [ 'assets/css/main.css', '!assets/css/main.min.css' ],
+                files: [ '_assets/css/main.css', '!_assets/css/main.min.css' ],
                 tasks: [ 'cssmin' ]
             },
             js: {
-                files: [ 'assets/js/*', '!assets/js/main.min.js' ],
+                files: [ '_assets/js/*', '!_assets/js/main.min.js' ],
                 tasks: [ 'uglify' ]
             }
         }

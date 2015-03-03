@@ -13,17 +13,17 @@
     "grunt-contrib-watch": "^0.6.1"
   },
   "css": {
-    "assets/css/main.min.css": [
+    "_assets/css/main.min.css": [
       "bower_components/normalize-css/normalize.css",
       "bower_components/Gridlock/fs.gridlock.css",
-      "assets/css/main.css"
+      "_assets/css/main.css"
     ]
   },
   "js": {
-    "assets/js/main.min.js": [
+    "_assets/js/main.min.js": [
       "bower_components/jquery/dist/jquery.min.js",
-      "assets/js/jssor.slider.min.js",
-      "assets/js/main.js"
+      "_assets/js/jssor.slider.min.js",
+      "_assets/js/main.js"
     ]
   }
 }
