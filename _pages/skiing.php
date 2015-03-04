@@ -1,5 +1,4 @@
 <?php include "../_includes/header.php" ?>
-			<section class="home max-9">
 				<h1>Skiing</h1>
 
 				<h2>Canyon Sports</h2>
@@ -48,6 +47,4 @@
 					<li>Beaver Mountain (2 hours south):  http://www.skithebeav.com/</li>
 					<li>Brian Head (3 1/2 hours down south):  http://brianhead.com/winter/</li>
 				</ul>
-		</div>
-	</body>
-</html>
+<?php include "../_includes/footer.php" ?>

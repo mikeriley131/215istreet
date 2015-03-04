@@ -22,12 +22,13 @@
 
 	<body class="gridlock">
 		<div class="row">
-			<aside class="max-3">
+			<nav class="max-3">
 				<ul>
 					<li><a href="http://localhost:8888/_pages/about.php">About</a></li>
 					<li><a href="http://localhost:8888/_pages/skiing.php">Skiing</a></li>
-					<li>Eats &amp; Drinks</li>
-					<li>Things To Do</li>
+					<li><a href="http://localhost:8888/_pages/eats-and-drinks.php">Eats &amp; Drinks</a></li>
+					<li><a href="http://localhost:8888/_pages/near-the-house.php">Near the House</a></li>
 					<li>Calendar</li>
 				</ul>
-			</aside>
+			</nav>
+			<section class="home max-9">

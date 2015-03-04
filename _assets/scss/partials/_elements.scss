@@ -4,10 +4,6 @@
 body {
 	font: $base-font;
 }
-aside {
-	font-family: $nav;
-	font-size: 2em;
-}
 ul, ol {
 	list-style-type: none;
 	margin: 0;
@@ -15,4 +11,16 @@ ul, ol {
 }
 .gridlock > .row {
 	margin-top: 4em;
+}
+
+/* ===========================================================================
+==== NAVIGATION
+============================================================================== */
+nav {
+	font-family: $nav;
+	font-size: 2em;
+
+	a {
+		color: #000;
+	}
 }
