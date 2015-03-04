@@ -23,13 +23,17 @@
 /* TABLETS
 ------------------------------------------------------------------------------ */
 @media screen and (min-width: 740px) and (max-width: 979px) {
-
+	.content {
+		margin-left: 1em;
+	}
 }
 
 /* MEDIUM SCREENS (LARGE PHONES)
 ----------------------------------------------------------------------------*/
 @media screen and (max-width: 739px) {
-
+	.gridlock .row {
+		width: 96%;
+	}
 }
 
 /* SMALL SCREENS (SMALL PHONES)
