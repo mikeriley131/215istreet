@@ -10,6 +10,7 @@
 ==== GLOBAL ELEMENTS
 ============================================================================== */
 body {
+  background: url("http://localhost:8888/_assets/images/nice_snow.png") top left;
   font: 125%/1.33 "Cantarell", Helvetica, Arial, sans-serif;
   color: #222222;
 }
@@ -91,6 +92,9 @@ nav img {
   content: '»';
   margin-right: .5em;
 }
+.content img {
+  margin-bottom: 1em;
+}
 
 .skiing li {
   padding: 0;
@@ -113,14 +117,6 @@ nav img {
 
 .other-skiing li {
   margin-bottom: inherit;
-}
-
-/* ===========================================================================
-==== HOME PAGE
-============================================================================== */
-img.logo {
-  display: block;
-  margin: 0 auto;
 }
 
 /* ===========================================================================

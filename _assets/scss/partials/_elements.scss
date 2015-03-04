@@ -2,6 +2,7 @@
 ==== GLOBAL ELEMENTS
 ============================================================================== */
 body {
+	background: url('http://localhost:8888/_assets/images/nice_snow.png') top left;
 	font: $base-font;
 	color: $base-color;
 }
@@ -86,6 +87,10 @@ nav {
 			content: '»';
 			margin-right: .5em;
 		}
+	}
+
+	img {
+		margin-bottom: 1em;
 	}
 }
 
