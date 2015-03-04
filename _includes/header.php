@@ -10,6 +10,7 @@
 		<title>The Avenues : 215 I Street</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Cantarell:400,700' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="http://localhost:8888/_assets/css/main.min.css" />
 
@@ -24,11 +25,12 @@
 		<div class="row">
 			<nav class="max-3">
 				<ul>
-					<li><a href="http://localhost:8888/_pages/about.php">About</a></li>
+					<li><a href="http://localhost:8888"><img src="http://localhost:8888/_assets/images/the-avenues-logo-black-small.png" alt="The Avenues Skull logo"></a></li>
 					<li><a href="http://localhost:8888/_pages/skiing.php">Skiing</a></li>
 					<li><a href="http://localhost:8888/_pages/eats-and-drinks.php">Eats &amp; Drinks</a></li>
 					<li><a href="http://localhost:8888/_pages/near-the-house.php">Near the House</a></li>
 					<li>Calendar</li>
 				</ul>
 			</nav>
-			<section class="home max-9">
+			<section class="max-9">
+				<div class="content">
