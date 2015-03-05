@@ -29,7 +29,7 @@
 					<li><a href="http://localhost:8888/_pages/skiing.php">Skiing</a></li>
 					<li><a href="http://localhost:8888/_pages/eats-and-drinks.php">Eats &amp; Drinks</a></li>
 					<li><a href="http://localhost:8888/_pages/near-the-house.php">Near the House</a></li>
-					<li>Calendar</li>
+					<li><a href="http://localhost:8888/_pages/calendar.php">Calendar</a></li>
 				</ul>
 			</nav>
 			<section class="max-9 desktop-9 tablet-4 mobile-2 min-3">
