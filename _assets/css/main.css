@@ -13,6 +13,7 @@ body {
   background: url("http://localhost:8888/_assets/images/nice_snow.png") top left;
   font: 125%/1.33 "Cantarell", Helvetica, Arial, sans-serif;
   color: #222222;
+  margin: 3em 0;
 }
 
 a {
@@ -33,10 +34,6 @@ h1, h2, h3 {
 h1 {
   font-family: "Permanent Marker", cursive;
   color: #950116;
-}
-
-.gridlock > .row {
-  margin-top: 4em;
 }
 
 /* ===========================================================================
@@ -101,6 +98,9 @@ nav img {
   margin-bottom: 3em;
   text-indent: 0;
 }
+.skiing li:last-child {
+  margin-bottom: 0;
+}
 .skiing li:before {
   content: none;
   margin: 0;
@@ -141,13 +141,44 @@ iframe {
   .content {
     margin-left: 1em;
   }
+
+  iframe {
+    height: 750px;
+  }
 }
 /* MEDIUM SCREENS (LARGE PHONES)
 ----------------------------------------------------------------------------*/
 @media screen and (max-width: 739px) {
+  body {
+    margin: 1em 1em 3em;
+  }
+
   .gridlock .row {
     width: 96%;
+  }
+
+  nav ul {
+    margin-bottom: 2em;
+  }
+
+  nav li {
+    font-size: 1.25em;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .content {
+    margin-left: 0;
   }
 }
 /* SMALL SCREENS (SMALL PHONES)
 ----------------------------------------------------------------------------*/
+@media screen and (max-width: 499px) {
+  body {
+    margin: 0 0 3em;
+    font-size: 100%;
+  }
+}

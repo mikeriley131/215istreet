@@ -23,7 +23,7 @@
 
 	<body class="gridlock">
 		<div class="row">
-			<nav class="max-3 desktop-3 tablet-2 mobile-1 min-3">
+			<nav class="max-3 desktop-3 tablet-2 mobile-3 min-3">
 				<ul>
 					<li><a href="http://localhost:8888"><img src="http://localhost:8888/_assets/images/the-avenues-logo-black-small.png" alt="The Avenues Skull logo"></a></li>
 					<li><a href="http://localhost:8888/_pages/skiing.php">Skiing</a></li>
@@ -32,5 +32,5 @@
 					<li><a href="http://localhost:8888/_pages/calendar.php">Calendar</a></li>
 				</ul>
 			</nav>
-			<section class="max-9 desktop-9 tablet-4 mobile-2 min-3">
+			<section class="max-9 desktop-9 tablet-4 mobile-3 min-3">
 				<div class="content">
