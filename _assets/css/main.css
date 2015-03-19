@@ -10,7 +10,7 @@
 ==== GLOBAL ELEMENTS
 ============================================================================== */
 body {
-  background: url("http://localhost:8888/_assets/images/nice_snow.png") top left;
+  background: url("images/nice_snow.png") top left;
   font: 125%/1.33 "Cantarell", Helvetica, Arial, sans-serif;
   color: #222222;
   margin: 3em 0;
@@ -53,6 +53,16 @@ nav li:first-child {
 }
 nav li:last-child {
   border-bottom: 1px solid #000;
+}
+nav li#menu-item-14 a {
+  background: url(images/the-avenues-logo-black-small.png) center top no-repeat;
+  display: block;
+  margin: 0 auto 1em;
+  width: 200px;
+  height: 223px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 nav a {
   color: #222222;
@@ -105,6 +115,9 @@ nav img {
   content: none;
   margin: 0;
 }
+.skiing li p {
+  margin: 0;
+}
 .skiing h2 {
   margin-bottom: .5em;
 }
@@ -124,6 +137,33 @@ nav img {
 ============================================================================== */
 iframe {
   width: 100%;
+}
+
+/* ===========================================================================
+==== FOR WORDPRESS
+============================================================================== */
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+img.align-left {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+img.align-right {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+img.align-center {
+  margin: 0 auto;
 }
 
 /* ===========================================================================
